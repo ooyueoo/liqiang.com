@@ -25,7 +25,7 @@ function save() {
                 window.location.href='';
             }*/
             document.getElementById('text').innerHTML = xhr.responseText;
-            clearInterval(interval);
+           // clearInterval(interval);
         }
     };
 }
